@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 
 dataset = pd.read_csv("dashboard/main_data.csv")
 
