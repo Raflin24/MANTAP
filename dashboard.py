@@ -1,5 +1,8 @@
 import pandas as pd
 import streamlit as st
+import plotly.express as px
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 dataset = pd.read_csv("dashboard/main_data.csv")
 
